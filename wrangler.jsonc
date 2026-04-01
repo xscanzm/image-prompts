@@ -1,18 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "aipipixia",
+  "name": "image-prompts",
   "compatibility_date": "2025-09-27",
   "assets": {
-    "directory": ".",
-    "exclude": [
-      ".git/**",
-      ".git",
-      ".github/**",
-      ".DS_Store",
-      "node_modules/**",
-      "*.md",
-      "DEPLOY.md",
-      "README.md"
-    ]
+    "directory": "./dist"
   }
 }
