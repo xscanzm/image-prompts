@@ -5,7 +5,7 @@
 
 🎉 提示词持续更新中。。。
 
-🎉 在线演示地址：https://opennana.com/awesome-prompt-gallery/
+🎉 在线演示地址：https://www.aipipixia.online/
 
 ## 🆕 项目改造说明
 - 新增 `scripts/generate-dataset.js`，可将仓库内的 Markdown 案例自动解析为结构化的 `data/prompts.json` 数据集，包含来源、图片、提示词、示例、备注及自动生成的分类标签。
@@ -13,19 +13,18 @@
 - 如需更新数据，先维护 Markdown 文件，再运行 `node scripts/generate-dataset.js` 重新生成 JSON，最后通过任意静态服务器打开 `index.html` 即可体验（例如 `python3 -m http.server 8000`）。
 - 画廊页面会自动聚合所有标签，可快速组合筛选；点击卡片进入详情，可查看全部示例图、提示词及备注。
 
-## 获取最新提示词？你可以通过这3个渠道。
+## 获取最新提示词？你可以通过这2个渠道。
 <div style="width: 98%;">
 <table>
   <tr>
     <!-- 左侧文字单元格 -->
     <td style="width: 60%; padding: 2px; vertical-align: middle; border: none;">
-      <p>1、微信公众号：松果先森</p>
-      <p>2、我的X地址：https://x.com/songguoxiansen</p>
-      <p>3、扫一扫，拉你进大群《AI技术学习交流群》</p>
+      <p>1、微信公众号：未来职场AI学堂</p>
+      <p>2、扫一扫，拉你进大群《AI技术学习交流群》</p>
     </td>
     <!-- 右侧图片单元格 -->
     <td>
-      <img src="./images/wechat.jpg" style="width: 300px; height: auto; margin: 0;">
+      <img src="./wechat-qr.jpg" style="width: 300px; height: auto; margin: 0;">
     </td>
   </tr>
 </table>
@@ -179,16 +178,16 @@
 *   [案例 1002：宫廷管弦乐队在一根树枝上演奏音乐 ](#prompt-1002)
 *   [案例 1001：香港维多利亚港烟花秀 ](#prompt-1001)
 ---
-## [点击：查看901-1000个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/1000.md)
-## [点击：查看801-900个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/900.md)
-## [点击：查看701-800个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/800.md)
-## [点击：查看601-700个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/700.md)
-## [点击：查看501-600个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/600.md)
-## [点击：查看401-500个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/500.md)
-## [点击：查看301-400个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/400.md)
-## [点击：查看201-300个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/300.md)
-## [点击：查看101-200个提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/200.md)
-## [点击：查看100提示词](https://github.com/songguoxs/gpt4o-image-prompts/blob/master/100.md)
+## [点击：查看901-1000个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/1000.md)
+## [点击：查看801-900个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/900.md)
+## [点击：查看701-800个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/800.md)
+## [点击：查看601-700个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/700.md)
+## [点击：查看501-600个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/600.md)
+## [点击：查看401-500个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/500.md)
+## [点击：查看301-400个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/400.md)
+## [点击：查看201-300个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/300.md)
+## [点击：查看101-200个提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/200.md)
+## [点击：查看100提示词](https://github.com/xscanzm/gpt4o-image-prompts/blob/master/100.md)
 
 <a id="prompt-1145"></a>
 ## 案例 1145：烬甲猎鹰者与燃翼神禽 (来源 [@iamsofiaijaz](https://x.com/iamsofiaijaz/status/2008896649901535342)) 模型：ChatGPT
