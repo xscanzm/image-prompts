@@ -1,13 +1,9 @@
 #!/bin/bash
-# Build script for Cloudflare Pages
-# Copies static files to dist/ excluding .git and other unnecessary files
-
 set -e
 
 rm -rf dist
 mkdir -p dist
 
-# Copy all files and directories except excluded ones
 for item in *; do
   case "$item" in
     .git|.github|node_modules|dist|build.sh)
@@ -18,6 +14,8 @@ for item in *; do
       ;;
   esac
 done
+
+rm -f dist/_headers dist/_redirects
 
 echo "Build complete. Files in dist/:"
 ls -la dist/
